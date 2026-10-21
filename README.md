@@ -1,2 +1,4 @@
 # Curtain
-Curtain allows you to create ctf challanges and deploy them easily, allowing users to easily deploy their own isolated environments through another tool called conductor. conductor does this by acting as a vpn and allowing users computers to act as if they are on the same network while also only giving them access to their own environment. This does not limit them to only one machine though, developers can create complex networks of interconnected virtual machines or real machines for the user to access. Each user is assigned a unique session ID that is used to identify which environment they can access, which is used to determine the users environment
+curtain is the frontend of a CTF hosting site, curtain allows for creation of users and teams that can collaborate and complete submitted challenges and gain points when completing which can then be displayed on a leader board for everyone to see
+
+curtain also has an admin page that you can use to create and manage challenges and what challenges are currently on display
